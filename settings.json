@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(pdflatex:*)",
+      "Bash(bibtex:*)",
+      "Bash(pdftotext:*)",
+      "Bash(brew list:*)",
+      "Edit(.claude/**)",
+      "Write(.claude/**)"
+    ]
+  }
+}
