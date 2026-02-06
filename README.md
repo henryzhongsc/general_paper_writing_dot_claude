@@ -23,11 +23,11 @@ Additionally, most paper-writing projects share repetitive operations, which mak
 
 It is recommended to avoid whitespace in the repo name.
 
-### 3. Clone `paper_writing_dot_claude` repo as a submodule for a shared paper writing `.claude/` folder
+### 3. Clone `general_paper_writing_dot_claude` repo as a submodule for a shared paper writing `.claude/` folder
 
 ```bash
 cd <paper_project>
-git submodule add https://github.com/henryzhongsc/paper_writing_dot_claude.git .claude
+git submodule add https://github.com/henryzhongsc/general_paper_writing_dot_claude.git .claude
 ```
 
 It is recommended that you fork this repo so that you can make customized updates to it.
@@ -115,6 +115,6 @@ cd .claude
 git pull
 ```
 
-### Sync updated `.claude/` to both `paper_writing_dot_claude` repo and your `<paper_project>` repo
+### Sync updated `.claude/` to both `general_paper_writing_dot_claude` repo and your `<paper_project>` repo
 
 Use the `/git-fp` slash command in Claude Code. This commits and pushes changes to the `.claude` submodule first, then commits and pushes the updated submodule reference to your paper project repo.
